@@ -265,7 +265,7 @@ describe("/POST JSON", () => {
       totalRecords: 75
     };
     chai
-      .request("http://localhost:5000")
+      .request("http://localhost:3000")
       .post("/")
       .send(test)
       .end((err, res) => {
